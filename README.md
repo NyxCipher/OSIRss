@@ -1,9 +1,12 @@
 # OSIRss
-OpenSource InfoSec Rss
+OpenSource InfoSec Rss in Python3 that I created to keep me informed for my studies in InfoSec.
 
 Pip install --upgrade feedparser
 
+Run: python OSIRss.py
+
 Credits:
+
 Luis Borralho(InfoSec Resource List: Hackin9 Magazine Issue: 11:11)
 
 Mani Gopalakrishnan(WizRssAggregator Tutorial) [https://medium.com/@DigitallyMani/how-to-build-a-rss-parser-in-python-2879135dc2d6]
