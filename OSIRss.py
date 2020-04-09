@@ -3,7 +3,7 @@ __author__ = "it0bsession"
 __copyright__ = "Copyright 2020, OpenSource InfoSecRss [OSIRSS]"
 __credits__ = ["Luis Borralho(InfoSec Resource List: Hackin9 Magazine)", "Mani Gopalakrishnan(WizRssAggregator)", "it0bsession(Dev)"]
 __license__ = "GPL"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __maintainer__ = "it0bsession"
 __status__ = "Beta"
 """
@@ -66,14 +66,17 @@ while True:
 		print ("OpenStack")
 		URL = "https://www.openstack.org/blog/?feed=rss2"
 		rssObject()
+		input("Press Enter to continue...")
 	elif selection == '2':
 		print ("OSVDB")
 		URL = "https://blog.osvdb.org/feed/"
 		rssObject()
+		input("Press Enter to continue...")
 	elif selection == '3':
 		print ("Pentester.es")
 		URL = "https://www.pentester.es/feed"
 		rssObject()
+		input("Press Enter to continue...")
 	elif selection == '4':
 		menu2 = {}
 		menu2 ['1'] = "Nmap Development"
