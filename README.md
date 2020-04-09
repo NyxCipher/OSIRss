@@ -1,0 +1,2 @@
+# OSIRss
+OpenSource InfoSec Rss
